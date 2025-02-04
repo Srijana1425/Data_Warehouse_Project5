@@ -21,7 +21,7 @@ You'll also need climate data:
     </ul>
     
 ### Data Loading and Analysis Instructions
-
+<hr>
 
 **Step 1:** Create an ER Diagram
 Design an Entity-Relationship (ER) diagram to visualize the movement of data into Staging, Operational Data Store (ODS), and Data Warehouse environments. This diagram will help illustrate your approach.
