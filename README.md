@@ -19,8 +19,10 @@ You'll also need climate data:
        <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/temperature-degreef.csv">Temperature csv</a></li>
        <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/precipitation-inch.csv">Precipitation csv</a></li>
     </ul>
- 
+    
 ### Data Loading and Analysis Instructions
+
+
 **Step 1:** Create an ER Diagram
 Design an Entity-Relationship (ER) diagram to visualize the movement of data into Staging, Operational Data Store (ODS), and Data Warehouse environments. This diagram will help illustrate your approach.
 
