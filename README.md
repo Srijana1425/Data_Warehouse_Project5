@@ -43,7 +43,7 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 **Step 3:** Upload Data to Staging
 - Upload all Yelp and Climate data to the staging environment.
 - Ensure large JSON files are split using tools like PineTools or 7zip to prevent parsing errors.
-- Use the SnowSQL command line and <a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/temperature-degreef.csv">JSON functions</a> to load large data into staging.
+- Use the SnowSQL command line and <a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/JSON%20functions%20to%20transform%20staging%20data%20from%20a%20single%20JSON%20structure%20into%20multiple%20columns%20for%20ODS.pdf">JSON functions</a> to load large data into staging.
 
 **Step 4:** Create an ODS Environment/Schema in Snowflake
 - Set up an ODS environment/schema in Snowflake.
