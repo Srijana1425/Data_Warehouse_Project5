@@ -32,12 +32,16 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 
   If you already have a Snowflake account, you can skip this step. Otherwise, follow these instructions:
     1. Create a Snowflake account at [Snowflake: Your Cloud Data Platform](https://www.snowflake.com/).
+  
     2.Choose the "Start for free" option and provide your details.
+  
     3.Select an Enterprise plan and a cloud provider.
+
     4.Activate your account using the link sent to your email.
 
 - *Install the SnowSQL Client*
     1. Install the SnowSQL client from the [Snowflake Repository](https://docs.snowflake.com/en/user-guide/snowsql-install-config.html).
+    
     2. For Mac OS users, troubleshoot using the provided link if needed.
 
 **Step 3:** Upload Data to Staging
@@ -45,17 +49,35 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 - Ensure large JSON files are split using tools like PineTools or 7zip to prevent parsing errors.
 - Use the SnowSQL command line and <a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/JSON%20functions%20to%20transform%20staging%20data%20from%20a%20single%20JSON%20structure%20into%20multiple%20columns%20for%20ODS.pdf">JSON functions</a> to load large data into staging.
 
+**Upload Data to Staging**
+![data to staging](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/3.Add_2_files_into_the_staging.jpg)
+
 **Step 4:** Create an ODS Environment/Schema in Snowflake
 - Set up an ODS environment/schema in Snowflake.
-- Design an ER diagram to illustrate the data structure.
 - Move the data from the staging environment to the ODS environment.
+- 
+**ER DIAGRAM**
+ ![ER Diagram](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/4.ODS_ER_diagram.jpg)
+
+**STAGING TO ODS**
+![staging to ODS](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/5.staging_data_to_ODS.jpg)
+
 
 **Step 5:** Design a STAR Schema for the Data Warehouse Environment
 - Develop a STAR schema for the Data Warehouse environment.
 - Create a Data Warehouse environment/schema in Snowflake.
 - Move the data from the ODS environment to the Data Warehouse environment.
 
+**STAR SCHEMA**
+![star](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/8.Fact_table_ER_diagram.jpg)
+
+**ODS to DWH**
+![ods to dwh](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/7.data_from_ODS_to_DWH.jpg)
+
+
 **Step 6:** Query and Analysis
 - Use SQL queries to analyze the data in the Data Warehouse.
 - Specifically, explore how weather affects Yelp reviews.
-- Provide SQL code and screenshots of your queries and results.
+
+**Report showing the business name, temperature, precipitation, and ratings**
+![report](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/9.report_showing_the_business_name.jpg)
