@@ -20,70 +20,39 @@ You'll also need climate data:
        <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/precipitation-inch.csv">Precipitation csv</a></li>
     </ul>
  
+### Data Loading and Analysis Instructions
+- **Step 1:** Create an ER Diagram
+Design an Entity-Relationship (ER) diagram to visualize the movement of data into Staging, Operational Data Store (ODS), and Data Warehouse environments. This diagram will help illustrate your approach.
+![ER DIAGRM]()
 
-### Snowflake Account Setup
+- **Step 2:** Set Up a Staging Environment/Schema in Snowflake
+- *Snowflake Account Setup*
 If you already have a Snowflake account, you can skip this step. Otherwise, follow these instructions:
-
 1. Create a Snowflake account at [Snowflake: Your Cloud Data Platform](https://www.snowflake.com/).
-2. Choose the "Start for free" option and provide your details.
-3. Select an Enterprise plan and a cloud provider.
-4. Activate your account using the link sent to your email.
+2.Choose the "Start for free" option and provide your details.
+3.Select an Enterprise plan and a cloud provider.
+4.Activate your account using the link sent to your email.
 
-Install the SnowSQL client:
-
+- *Install the SnowSQL Client*
 1. Install the SnowSQL client from the [Snowflake Repository](https://docs.snowflake.com/en/user-guide/snowsql-install-config.html).
 2. For Mac OS users, troubleshoot using the provided link if needed.
 
-### Explore the Data
-Take some time to familiarize yourself with the data you've uploaded into Snowflake.
+- **Step 3:** Upload Data to Staging
+- Upload all Yelp and Climate data to the staging environment.
+- Ensure large JSON files are split using tools like PineTools or 7zip to prevent parsing errors.
+- Use the SnowSQL command line and JSON functions to load large data into staging.
 
-## Instructions
+- **Step 4:** Create an ODS Environment/Schema in Snowflake
+- Set up an ODS environment/schema in Snowflake.
+- Design an ER diagram to illustrate the data structure.
+- Move the data from the staging environment to the ODS environment.
 
-1. **Data Architecture Diagram**: Create a diagram illustrating how you will move data into Staging, Operational Data Store (ODS), and Data Warehouse environments. This diagram will help visualize your approach.
+- **Step 5:** Design a STAR Schema for the Data Warehouse Environment
+- Develop a STAR schema for the Data Warehouse environment.
+- Create a Data Warehouse environment/schema in Snowflake.
+- Move the data from the ODS environment to the Data Warehouse environment.
 
-2. **Staging Environment**: Set up a staging environment/schema in Snowflake. 
-
-3. **Data Upload to Staging**: Upload all Yelp and Climate data to the staging environment. Make sure to split large JSON files (< 3 million records per file in Yelp) using tools like PineTools or 7zip to prevent parsing errors.
-
-4. **Operational Data Store (ODS)**: Create an ODS environment/schema in Snowflake. Design an entity-relationship (ER) diagram to illustrate data structure.
-
-5. **Migrate to ODS**: Move the data from the staging environment to the ODS environment. Document this process using screenshots.
-
-6. **Data Warehouse Environment**: Design a STAR schema for the Data Warehouse environment.
-
-7. **Migrate to Data Warehouse**: Transfer data from ODS to the Data Warehouse. Capture this process with screenshots.
-
-8. **Query and Analysis**: Use SQL queries to analyze the data in the Data Warehouse. Specifically, explore how weather affects Yelp reviews. Provide SQL code and screenshots.
-## Data Architect Diagram
-<img src="./Project Design a Data Warehouse for Reporting and OLAP/ScreenShots/YELP New Data Architect.png">
-
-## Tables in Staging Area
-<img src="./Project Design a Data Warehouse for Reporting and OLAP/ScreenShots/Temperature and Precipitation Table Staging.png">
-
-## Tables in ODS 
-<img src="./Project Design a Data Warehouse for Reporting and OLAP/ScreenShots/YELP and Climate Tables at ODS.png">
-
-### Entity Relationship Model In ODS
-<img src="./Project Design a Data Warehouse for Reporting and OLAP/ScreenShots/YELP ERD diagram.PNG">
-
-## Table in DWH
-<img src="./Project Design a Data Warehouse for Reporting and OLAP/ScreenShots/YELP and Climate Table in DWH.png">
-
-### Star Schema in DWH
-<img src="./Project Design a Data Warehouse for Reporting and OLAP/ScreenShots/Star Schema.png">
-
-### Reporting
-<img src="./Project Design a Data Warehouse for Reporting and OLAP/ScreenShots/SQL code to reports the business name, temperature, precipitation, and ratings.png">
-
-## SQL Scripts
-<ul>
-    <li><a href="./Project Design a Data Warehouse for Reporting and OLAP/SQL Script RAW to STAGING.sql">SQL queries code that transforms staging to ODS.</a></li>
-    <li><a href="./Project Design a Data Warehouse for Reporting and OLAP/SQL STAGING to ODS.sql">SQL queries code that specifically uses JSON functions to transform data from a single JSON structure of staging to multiple columns of ODS.</a></li>
-    <li><a href="./Project Design a Data Warehouse for Reporting and OLAP/SQL ODS to DWH.sql">SQL queries code necessary to move the data from ODS to DWH.</a></li>
-    <li><a href="./Project Design a Data Warehouse for Reporting and OLAP/SQL Integrating Climate and Yelp data.sql">SQL queries code to integrate climate and Yelp data</a></li>
-    <li><a href="./Project Design a Data Warehouse for Reporting and OLAP/SQL reporting business,temperature, precipitation.sql">SQL queries code that reports the business name, temperature, precipitation, and ratings.</a></li>
-</ul>
-
-## Conclusion
-
-This project empower me to delve into the relationship between weather conditions and restaurant reviews using real-world data and advanced data warehousing techniques. By applying the principles learned in the Designing Data Systems Course and leveraging Snowflake's capabilities, I created a robust infrastructure for reporting and OLAP analysis. Happy exploring!
+- **Step 6:** Query and Analysis
+- Use SQL queries to analyze the data in the Data Warehouse.
+- Specifically, explore how weather affects Yelp reviews.
+- Provide SQL code and screenshots of your queries and results.
