@@ -100,14 +100,20 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 
 To further understand our project, please refer to the following files and directories in the repository:
 
-Screenshots : Folder containing all the ER diagrams and images screenshots.
+- **Screenshots :** Folder containing all the ER diagrams and images screenshots.
 
-SQL Code :SQL code used for creating and managing the database. You can view it here.
+- **SQL Code :** SQL code used for creating and managing the database. You can view it here.
 <ul>
     <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/SQL%20queries%20that%20integrate%20the%20climate%20and%20Yelp%20datasets.sql">SQL queries that integrate the climate and Yelp datasets.sql.</a></li>
     <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/SQL%20queries%20that%20moves%20the%20data%20from%20ODS%20to%20DWH.sql">SQL queries that moves the data from ODS to DWH.sql</a></li>
     <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/SQL%20queries%20that%20produce%20a%20report%20showing%20the%20business%20name%2C%20temperature%2C%20precipitation%2C%20and%20ratings.sql">SQL queries that produce a report showing the business name, temperature, precipitation, and ratings.sql</a></li>
     <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/SQL%20queries%20that%20transform%20staging%20to%20ODS.sql">SQL queries that transform staging to ODS.sql</a></li>
+</ul>
+- ** PDFs ** 
+<ul>
+    <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/JSON%20functions%20to%20transform%20staging%20data%20from%20a%20single%20JSON%20structure%20into%20multiple%20columns%20for%20ODS.pdf">JSON functions to transform staging data from a single JSON structure into multiple columns for ODS.pdf
+</li>
+    <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/Design%20a%20Data%20Warehouse%20for%20Reporting%20and%20OLAP%20Documentation..pdf">Design a Data Warehouse for Reporting and OLAP Documentation..pdf</li>
 </ul>
  
 
