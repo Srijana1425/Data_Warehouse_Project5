@@ -96,4 +96,12 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 
 <hr>
 
+## Project Files 📁
+
+To further understand our project, please refer to the following files and directories in the repository:
+
+Screenshots : Folder containing  screenshots.
+DDL Screenshots : Folder containing Data Definition Language (DDL) screenshots.
+PDF: File: SrijanaThapa_ppt_representation.pptx This PowerPoint presentation provides a visual overview of the project, steps taken, and key outcomes. You can view it here.
+SQL Code : File: code.sql Contains the SQL code used for creating and managing the database. You can view it here.
 
