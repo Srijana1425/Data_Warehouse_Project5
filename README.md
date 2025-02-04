@@ -30,20 +30,20 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 **Step 2:** Set Up a Staging Environment/Schema in Snowflake
 - *Snowflake Account Setup*
 
-If you already have a Snowflake account, you can skip this step. Otherwise, follow these instructions:
-1. Create a Snowflake account at [Snowflake: Your Cloud Data Platform](https://www.snowflake.com/).
-2.Choose the "Start for free" option and provide your details.
-3.Select an Enterprise plan and a cloud provider.
-4.Activate your account using the link sent to your email.
+  If you already have a Snowflake account, you can skip this step. Otherwise, follow these instructions:
+    1. Create a Snowflake account at [Snowflake: Your Cloud Data Platform](https://www.snowflake.com/).
+    2.Choose the "Start for free" option and provide your details.
+    3.Select an Enterprise plan and a cloud provider.
+    4.Activate your account using the link sent to your email.
 
-*Install the SnowSQL Client*
-1. Install the SnowSQL client from the [Snowflake Repository](https://docs.snowflake.com/en/user-guide/snowsql-install-config.html).
-2. For Mac OS users, troubleshoot using the provided link if needed.
+- *Install the SnowSQL Client*
+    1. Install the SnowSQL client from the [Snowflake Repository](https://docs.snowflake.com/en/user-guide/snowsql-install-config.html).
+    2. For Mac OS users, troubleshoot using the provided link if needed.
 
 **Step 3:** Upload Data to Staging
 - Upload all Yelp and Climate data to the staging environment.
 - Ensure large JSON files are split using tools like PineTools or 7zip to prevent parsing errors.
-- Use the SnowSQL command line and JSON functions to load large data into staging.
+- Use the SnowSQL command line and <a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/temperature-degreef.csv">JSON functions</a> to load large data into staging.
 
 **Step 4:** Create an ODS Environment/Schema in Snowflake
 - Set up an ODS environment/schema in Snowflake.
