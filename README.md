@@ -41,6 +41,7 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
     4.Activate your account using the link sent to your email.
 
 - *Install the SnowSQL Client*
+  
     1.Install the SnowSQL client from the [Snowflake Repository](https://docs.snowflake.com/en/user-guide/snowsql-install-config.html).
     
     2.For Mac OS users, troubleshoot using the provided link if needed.
