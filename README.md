@@ -43,17 +43,17 @@ If you already have a Snowflake account, you can skip this step. Otherwise, foll
 - Ensure large JSON files are split using tools like PineTools or 7zip to prevent parsing errors.
 - Use the SnowSQL command line and JSON functions to load large data into staging.
 
-  **Step 4:** Create an ODS Environment/Schema in Snowflake
+**Step 4:** Create an ODS Environment/Schema in Snowflake
 - Set up an ODS environment/schema in Snowflake.
 - Design an ER diagram to illustrate the data structure.
 - Move the data from the staging environment to the ODS environment.
 
-  **Step 5:** Design a STAR Schema for the Data Warehouse Environment
+**Step 5:** Design a STAR Schema for the Data Warehouse Environment
 - Develop a STAR schema for the Data Warehouse environment.
 - Create a Data Warehouse environment/schema in Snowflake.
 - Move the data from the ODS environment to the Data Warehouse environment.
 
-- **Step 6:** Query and Analysis
+**Step 6:** Query and Analysis
 - Use SQL queries to analyze the data in the Data Warehouse.
 - Specifically, explore how weather affects Yelp reviews.
 - Provide SQL code and screenshots of your queries and results.
