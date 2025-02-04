@@ -23,7 +23,9 @@ You'll also need climate data:
 ### Data Loading and Analysis Instructions
 **Step 1:** Create an ER Diagram
 Design an Entity-Relationship (ER) diagram to visualize the movement of data into Staging, Operational Data Store (ODS), and Data Warehouse environments. This diagram will help illustrate your approach.
+
 ![**ER DIAGRAM**](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/1.Data_architecture_diagram(YELP).jpg)
+
 
 **Step 2:** Set Up a Staging Environment/Schema in Snowflake
 - *Snowflake Account Setup*
