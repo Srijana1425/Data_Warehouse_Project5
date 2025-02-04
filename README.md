@@ -114,7 +114,7 @@ To further understand our project, please refer to the following files and direc
 <ul>
     <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/JSON%20functions%20to%20transform%20staging%20data%20from%20a%20single%20JSON%20structure%20into%20multiple%20columns%20for%20ODS.pdf">JSON functions to transform staging data from a single JSON structure into multiple columns for ODS.pdf
 </li>
-    <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/Design%20a%20Data%20Warehouse%20for%20Reporting%20and%20OLAP%20Documentation..pdf">Design a Data Warehouse for Reporting and OLAP Documentation..pdf</li><p>contains the project's documentation.</p>
+    <li><p><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/Design%20a%20Data%20Warehouse%20for%20Reporting%20and%20OLAP%20Documentation..pdf">Design a Data Warehouse for Reporting and OLAP Documentation..pdf</li>contains the project's documentation.</p>
 </ul>
  
 
