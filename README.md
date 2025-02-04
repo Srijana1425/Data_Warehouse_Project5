@@ -21,11 +21,11 @@ You'll also need climate data:
     </ul>
  
 ### Data Loading and Analysis Instructions
-- **Step 1:** Create an ER Diagram
+**Step 1:** Create an ER Diagram
 Design an Entity-Relationship (ER) diagram to visualize the movement of data into Staging, Operational Data Store (ODS), and Data Warehouse environments. This diagram will help illustrate your approach.
 ![ER DIAGRM]()
 
-- **Step 2:** Set Up a Staging Environment/Schema in Snowflake
+**Step 2:** Set Up a Staging Environment/Schema in Snowflake
 - *Snowflake Account Setup*
 If you already have a Snowflake account, you can skip this step. Otherwise, follow these instructions:
 1. Create a Snowflake account at [Snowflake: Your Cloud Data Platform](https://www.snowflake.com/).
@@ -33,21 +33,21 @@ If you already have a Snowflake account, you can skip this step. Otherwise, foll
 3.Select an Enterprise plan and a cloud provider.
 4.Activate your account using the link sent to your email.
 
-- *Install the SnowSQL Client*
+*Install the SnowSQL Client*
 1. Install the SnowSQL client from the [Snowflake Repository](https://docs.snowflake.com/en/user-guide/snowsql-install-config.html).
 2. For Mac OS users, troubleshoot using the provided link if needed.
 
-- **Step 3:** Upload Data to Staging
+**Step 3:** Upload Data to Staging
 - Upload all Yelp and Climate data to the staging environment.
 - Ensure large JSON files are split using tools like PineTools or 7zip to prevent parsing errors.
 - Use the SnowSQL command line and JSON functions to load large data into staging.
 
-- **Step 4:** Create an ODS Environment/Schema in Snowflake
+  **Step 4:** Create an ODS Environment/Schema in Snowflake
 - Set up an ODS environment/schema in Snowflake.
 - Design an ER diagram to illustrate the data structure.
 - Move the data from the staging environment to the ODS environment.
 
-- **Step 5:** Design a STAR Schema for the Data Warehouse Environment
+  **Step 5:** Design a STAR Schema for the Data Warehouse Environment
 - Develop a STAR schema for the Data Warehouse environment.
 - Create a Data Warehouse environment/schema in Snowflake.
 - Move the data from the ODS environment to the Data Warehouse environment.
