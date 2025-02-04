@@ -27,6 +27,7 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 
 **Step 2:** Set Up a Staging Environment/Schema in Snowflake
 - *Snowflake Account Setup*
+
 If you already have a Snowflake account, you can skip this step. Otherwise, follow these instructions:
 1. Create a Snowflake account at [Snowflake: Your Cloud Data Platform](https://www.snowflake.com/).
 2.Choose the "Start for free" option and provide your details.
