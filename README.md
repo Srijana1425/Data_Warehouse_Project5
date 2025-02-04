@@ -50,16 +50,19 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 - Use the SnowSQL command line and <a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/JSON%20functions%20to%20transform%20staging%20data%20from%20a%20single%20JSON%20structure%20into%20multiple%20columns%20for%20ODS.pdf">JSON functions</a> to load large data into staging.
 
 **Upload Data to Staging**
+
 ![data to staging](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/3.Add_2_files_into_the_staging.jpg)
 
 **Step 4:** Create an ODS Environment/Schema in Snowflake
 - Set up an ODS environment/schema in Snowflake.
 - Move the data from the staging environment to the ODS environment.
-- 
+
 **ER DIAGRAM**
+
  ![ER Diagram](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/4.ODS_ER_diagram.jpg)
 
 **STAGING TO ODS**
+
 ![staging to ODS](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/5.staging_data_to_ODS.jpg)
 
 
@@ -69,9 +72,12 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 - Move the data from the ODS environment to the Data Warehouse environment.
 
 **STAR SCHEMA**
+
 ![star](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/8.Fact_table_ER_diagram.jpg)
 
+
 **ODS to DWH**
+
 ![ods to dwh](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/7.data_from_ODS_to_DWH.jpg)
 
 
@@ -80,4 +86,5 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 - Specifically, explore how weather affects Yelp reviews.
 
 **Report showing the business name, temperature, precipitation, and ratings**
+
 ![report](https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/screenshorts/9.report_showing_the_business_name.jpg)
