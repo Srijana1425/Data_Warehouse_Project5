@@ -16,7 +16,7 @@ You'll also need climate data:
 
 1. Download the precipitation and temperature data CSV files using links below.
     <ul>
-       <li><a href="./Project Design a Data Warehouse for Reporting and OLAP/Data/temperature-degreef.csv">Temperature csv</a></li>
+       <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/temperature-degreef.csv">Temperature csv</a></li>
        <li><a href="https://github.com/Srijana1425/Data_Warehouse_Project5/blob/main/precipitation-inch.csv">Precipitation csv</a></li>
     </ul>
  
