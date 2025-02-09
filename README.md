@@ -99,7 +99,7 @@ Design an Entity-Relationship (ER) diagram to visualize the movement of data int
 
 ## Project Files 📁
 
-To further understand our project, please refer to the following files and directories in the repository:
+To further understand this project, please refer to the following files and directories in my repository:
 
 **1. Screenshots :** Folder containing all the ER diagrams and images screenshots.
 
